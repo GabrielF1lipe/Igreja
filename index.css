@@ -15,3 +15,10 @@ nav{
 .gray{
     background-color: gray;
 }
+.back{
+    background-color: gray;
+    height: 200px;
+}
+.fontemonte{
+    font-size: 30px !important;
+}
