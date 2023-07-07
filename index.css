@@ -34,9 +34,15 @@ nav{
 .back{
     background-color: #ff6800;
 }
+.backfrases{
+    background-color: #30444e !important;
+}
 .border{
     background-color: #212529 !important;
 }
 .font{
     color: whit;
+}
+.centro{
+    justify-content: center;
 }
