@@ -7,7 +7,7 @@ nav{
     height: 120px;
 }
 .branco{
-    color:white !important;
+    color:rgba(255, 255, 255, 0.842) !important;
 }
 .gapfig{
     display: flex;
@@ -24,8 +24,19 @@ nav{
     text-align: center;
 }
 
-
 .carousel{
-    
     margin: auto;
+    width: 80rem;
+}
+.marginleft{
+    margin-left: 18rem;
+}
+.back{
+    background-color: #ff6800;
+}
+.border{
+    background-color: #212529 !important;
+}
+.font{
+    color: whit;
 }
