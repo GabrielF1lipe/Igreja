@@ -1,6 +1,7 @@
 html, body {
     
     background-image: linear-gradient(to right bottom, #ffba00, #ee9d0d, #da8115, #c3661a, #aa4e1b);
+    height: 100%;
 }
 
 nav{
@@ -41,7 +42,7 @@ nav{
     background-color: #212529 !important;
 }
 .font{
-    color: whit;
+    color: white;
 }
 .centro{
     justify-content: center;
