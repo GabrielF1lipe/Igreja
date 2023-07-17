@@ -17,10 +17,6 @@ body {
     height: 120px;
 }
 
-main {
-    margin-top: 100px;
-}
-
 .branco {
     color: rgba(255, 255, 255, 0.842) !important;
 }
