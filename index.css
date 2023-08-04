@@ -4,6 +4,7 @@ body {
     background-image: linear-gradient(to right bottom, #ffba00, #ee9d0d, #da8115, #c3661a, #aa4e1b);
 
 }
+
 /* #navtop {
     position: fixed !important;
     top: 0;
@@ -12,7 +13,7 @@ body {
     z-index: 100;
 }*/
 
-#navtop{
+#navtop {
 
     height: 120px;
 }
@@ -65,22 +66,26 @@ body {
 }
 
 .centro {
-    justify-content: center;
+    justify-content: center !important;
 }
 
-.pad{
-    padding: 100px;
+.pad {
+    padding: 200px;
 }
 
-.footer{
-    height: 170px;
+#navbot{
+    height: 200px;
 }
 
-.f{
-display: flex;
-justify-content: space-between;
+.f {
+    display: block !important;
+    justify-content: space-between !important
 }
 
-.nosub{
+.nosub {
     text-decoration: none;
+}
+
+.mgtop{
+    margin-top: 30px !important;
 }
