@@ -70,16 +70,11 @@ body {
 }
 
 .pad {
-    padding: 200px;
+    padding: 180px;
 }
 
 #navbot{
-    height: 200px;
-}
-
-.f {
-    display: block !important;
-    justify-content: space-between !important
+    height: 170px;
 }
 
 .nosub {
@@ -87,5 +82,12 @@ body {
 }
 
 .mgtop{
-    margin-top: 30px !important;
+    margin-top: 10px !important;
+}
+
+.mg{
+    margin-inline: 150px !important;
+}
+.wdtf{
+    width: 300px !important;
 }
