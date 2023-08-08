@@ -91,3 +91,11 @@ body {
 .wdtf{
     width: 300px !important;
 }
+.dpf{
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-inline: 100px !important;
+}
+.hcrs{
+    height: 500px !important;
+}
