@@ -1,0 +1,7 @@
+html, body {
+    height: 100%;
+    background-image: linear-gradient(to right bottom, #ffba00, #ee9d0d, #da8115, #c3661a, #aa4e1b);
+}
+#navtop{
+    height: 120px;
+}
