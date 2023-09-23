@@ -14,33 +14,64 @@
 <body>
 
   <nav id="navtop" class="navbar navbar-dark bg-dark navbar-expand ">
-    <div id="navtop" class="container-fluid grid gap-5">
-      <img src="imagens/maduHead.png" alt="maduHead" width="200px" height="120px">
+    <div class="container-fluid grid gap-5 ">
+      <img src="imagens/maduHead.png" alt="maduHead" width="170px" height="120px">
       <a class="navbar-brand mx-auto p-2 fontemonte" href="index.html">Monte Sinai</a>
 
-      <ul class="navbar-nav">
-        <li class="nav-item ">
-          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Programação Mensal
-                </button>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="./progJovem.html">Jovem & Adolescente</a></li>
-                  <li><a class="dropdown-item" href="#">Crianças</a></li>
-                  <li><a class="dropdown-item" href="#">Cibe</a></li>
-                  <li><a class="dropdown-item" href="#">Varão</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <a class="nav-link" href="#">Sobre nós</a>
-        </li>
-      </ul>
+
+      <div class="menu">
+        <a class="btn  position-absolute end-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+            <g transform="">
+              <g fill="#572a07" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                style="mix-blend-mode: normal">
+                <g transform="scale(5.12,5.12)">
+                  <path
+                    d="M5,8c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,23c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,38c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175z">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+        
+      </div>
+
+
+
     </div>
   </nav>
+
+  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Monte Sinai</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        Descubra mais sobre nós!
+      </div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Programação Mensal
+        </button>
+
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item" href="./progJovem.html">Jovem & Adolescente</a></li>
+          <li><a class="dropdown-item" href="#">Crianças</a></li>
+          <li><a class="dropdown-item" href="#">Cibe</a></li>
+          <li><a class="dropdown-item" href="#">Varão</a></li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
   <main class="container-fluid p-5">
 
     <header class="h3 branco ">Grupo de Jeová Rafah</header>
