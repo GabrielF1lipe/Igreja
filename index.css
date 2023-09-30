@@ -14,8 +14,7 @@ body {
     z-index: 100;
 }*/
 
-#navtop {
-
+#navtop {   
     height: 120px;
 }
 
@@ -122,6 +121,14 @@ body {
     margin-top: 20px;
 }
 
+
 .menu a{
+    display: flex;
+    gap: 10px;
     position: relative !important;
+    align-items: center;
+
+}
+.menu a p {
+    margin: 0px 0px;
 }
